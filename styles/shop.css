@@ -1,0 +1,52 @@
+
+/* Code to align flex items correctly */
+#shop {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(214, 206, 206);
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+}
+/* Text formatting for info items */
+#name {
+    font-size: large;
+    font-family: cursive, 'Times New Roman', Times, serif ;
+  
+}
+#address_num {
+    font-size: small;
+    text-align: left;
+}
+#webpage {
+    font-size: small;
+    text-align: left;
+}
+#menu {
+    font-size: small;
+    text-align: top;
+}
+/* The code below aligns the last two flex boxes to fit the requirements */
+#left_flex {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(214, 206, 206);
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    margin-left: 6em;
+}
+#right_flex {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(214, 206, 206);
+    border-top: 1px solid purple;
+    border-left: 1px solid purple;
+    margin-right: 5em;
+}
+   
+
